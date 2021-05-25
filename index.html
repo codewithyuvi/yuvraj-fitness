@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuvraj Fitness</title>
+    <style>
+        body{
+            background-image: url('img/bg.jpg');
+        }
+
+        .header{
+            /* border: 2px solid white; */
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .left{
+            /* border: 2px solid red; */
+            position: absolute;
+            display: inline;
+            float: left;
+            left: 30px;
+            margin: 17px 18px;
+
+        }
+
+        .mid{
+            /* border: 2px solid green; */
+            display: block;
+            width: 663px;
+            margin: 18px  auto;
+            padding: 2px 2px;
+            top: 4px;
+
+        }
+
+        .right{
+            /* border: 2px solid yellow; */
+            display: inline-block;
+            position: absolute;
+            right: 22px;
+            top: 36px;
+        }
+
+        .navbar li{
+            display: inline-block;
+            margin: 3px 24px;
+        }
+
+        .navbar li a{
+            color: white;
+        }
+
+
+        .navbar li a:hover{
+            text-decoration: underline;
+            color: gray;
+        }
+
+        .left img{
+            width: 121px;
+            filter: invert(100%);
+            margin: -26px auto;
+        }
+
+        h2{
+            margin-top: 10px;
+            font-size: 19px;
+        }
+
+        .btn{
+            cursor: pointer;
+            margin: 0px 9px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+        }
+        .btn:hover{
+            background-color: rgb(80, 78, 78);
+        }
+
+
+        .container{
+            border: 2px solid white;
+            border-radius: 23px;
+            margin: 48px 31px;
+            padding-top: 23px;
+            padding-bottom: 23px;
+            padding-left: 51px;
+            padding-right: 0px;
+            width: 421px;
+        }
+
+        .container h1{
+            font-size: 24px;
+        }
+
+        .input{
+            border-radius: 12px;
+            margin-top: 8px;
+            padding: 6px 108px;
+            width: 114px;
+        }
+
+        .register{
+            cursor: pointer;
+            width: 331px;
+            margin: 10px 2px;
+            border: 2px solid gray;
+            padding: 4px 1px;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/dumble-logo.png" alt="Unable to load image">
+            
+            <h2>Yuvraj Fitness</h2>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#" >Home</a></li>
+                <li> <a href="#" >About</a></li>
+                <li> <a href="#" >Fitness Calculator</a></li>
+                <li> <a href="#" >Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+
+        <div class="container">
+            <h1>Join the Best GYM of Delhi Now!</h1>
+            <form action="noaction.php">
+                <div>
+                    <input type="text" name="myName" placeholder="Enter Your Name" class="input">
+                </div>
+                <div>
+                    <input type="text" name="myName" placeholder="Enter Your Age" class="input">
+                </div>
+                <div>
+                    <input type="text" name="myName" placeholder="Enter Your Gender" class="input">
+                </div>
+                <div>
+                    <input type="text" name="myName" placeholder="Enter Your Locality" class="input">
+                </div>
+                <div >
+                    <input type="submit" value="Register" class="register" >
+                </div>
+            </form>
+        </div>
+
+    </header>
+</body>
+</html>
